@@ -8,7 +8,8 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="calc">
+    
+    <div class="outer"><div class="calc">
         <div class="display"></div>
         <div class="buttons">
             
@@ -36,14 +37,16 @@
             <div class="row">
                 <button class="num">.</button>
                 <button class="num">0</button>
-                <button id="equals">=</button>
+                <button id="ac">AC</button>
+                
                 <button class="operator">/</button>
 
             </div>
-            <button id="ac">CLEAR</button>
+            <div class="row"><button id="equals">=</button></div>
+            
             
 
         </div>
-    </div>
+    </div></div>
 </body>
 </html>
